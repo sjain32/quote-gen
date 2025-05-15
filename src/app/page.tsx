@@ -19,7 +19,7 @@ export default function Home() {
                 <h1 className="text-6xl font-bold text-white mb-4 animate-pulse font-display">Find Your Daily Spark.</h1>
                 <p className="text-lg text-white mb-8"> Explore motivational, inspirational, and humorous quotes <br />tailored by theme. Save your favorites and get inspired every day.</p>
                 <Link href="/source">
-                    <Button variant={"outline"} className="bg-black border-white text-white hover:bg-white hover:text-black h-15  px-8 py-2">Get Started</Button>
+                    <Button variant={"outline"} style={{backgroundColor: "hsl(263, 68%, 46%)"}} className="border-none text-white cursor-pointer h-15  px-8 py-2">Get Started</Button>
                 </Link>
             </div>
         </div>

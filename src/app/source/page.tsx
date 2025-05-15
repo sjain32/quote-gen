@@ -29,7 +29,7 @@ export default async function Home() {
   const availableThemes = getUniqueThemes(allQuotesData);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-8 md:p-12">
+    <main className="flex min-h-screen flex-col items-center bg-black justify-center p-4 sm:p-8 md:p-12">
       {/* Decorative elements */}
       <div className="fixed pointer-events-none inset-0 overflow-hidden z-0">
         <div className="absolute top-0 left-1/4 w-72 h-72 bg-primary/10 rounded-full filter blur-3xl animate-float" style={{ animationDelay: '0s' }}></div>
@@ -40,7 +40,7 @@ export default async function Home() {
         {/* Page Title with decorative elements */}
         <div className="mb-10 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-foreground relative inline-block">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70 text-shadow-sm">
+            <span className="bg-clip-text text-white text-transparent bg-gradient-to-r from-primary to-primary/70 text-shadow-sm">
               Themed Quote Generator
             </span>
           </h1>
