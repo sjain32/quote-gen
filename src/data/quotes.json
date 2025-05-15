@@ -1,0 +1,229 @@
+
+[
+   
+    {
+        "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "author": "Nelson Mandela",
+        "theme": "Motivation" 
+    }, 
+    {
+        "text": "The way to get started is to quit talking and begin doing.",
+        "author": "Walt Disney",
+        "theme": "Motivation"
+    },
+    {
+        "text": "Your time is limited, so don't waste it living someone else's life.",
+        "author": "Steve Jobs",
+        "theme": "Wisdom" 
+    },
+    {
+        "text": "If life were predictable it would cease to be life, and be without flavor.",
+        "author": "Eleanor Roosevelt",
+        "theme": "Life" 
+    },
+    {
+        "text": "Technology is best when it brings people together.",
+        "author": "Matt Mullenweg",
+        "theme": "Technology" 
+    },
+    {
+        "text": "It has become appallingly obvious that our technology has exceeded our humanity.",
+        "author": "Albert Einstein",
+        "theme": "Technology"
+    },
+    {
+        "text": "The only true wisdom is in knowing you know nothing.",
+        "author": "Socrates",
+        "theme": "Wisdom"
+    },
+    {
+        "text": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+        "author": "Benjamin Franklin",
+        "theme": "Wisdom"
+    },
+    {
+        "text": "Strive not to be a success, but rather to be of value.",
+        "author": "Albert Einstein",
+        "theme": "Motivation"
+    },
+    {
+        "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        "author": "Albert Einstein",
+        "theme": "Humor"
+    },
+    {
+        "text": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt",
+        "theme": "Inspiration"
+    },
+    {
+        "text": "Life is what happens when you're busy making other plans.",
+        "author": "John Lennon",
+        "theme": "Life"
+    },
+    {
+        "text": "Get busy living or get busy dying.",
+        "author": "Stephen King",
+        "theme": "Life"
+    },
+    {
+        "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+        "author": "Arthur C. Clarke",
+        "theme": "Technology"
+    },
+    {
+        "text": "I have not failed. I've just found 10,000 ways that won't work.",
+        "author": "Thomas A. Edison",
+        "theme": "Perseverance"
+    },
+    {
+        "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+        "author": "William Butler Yeats",
+        "theme": "Motivation"
+    },
+    {
+        "text": "In the middle of every difficulty lies opportunity.",
+        "author": "Albert Einstein",
+        "theme": "Wisdom"
+    },
+    {
+        "text": "Stay hungry, stay foolish.",
+        "author": "Steve Jobs",
+        "theme": "Inspiration"
+    },
+    {
+        "text": "A computer once beat me at chess, but it was no match for me at kickboxing.",
+        "author": "Emo Philips",
+        "theme": "Humor"
+    },
+    {
+        "text": "The purpose of our lives is to be happy.",
+        "author": "Dalai Lama",
+        "theme": "Life"
+    },
+    {
+        "text": "It’s not whether you get knocked down, it’s whether you get up.",
+        "author": "Vince Lombardi",
+        "theme": "Perseverance"
+    },
+    {
+        "text": "Logic will get you from A to B. Imagination will take you everywhere.",
+        "author": "Albert Einstein",
+        "theme": "Wisdom"
+    },
+    {
+        "text": "To iterate is human, to recurse divine.",
+        "author": "L. Peter Deutsch",
+        "theme": "Technology"
+    },
+    {
+        "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "author": "Winston Churchill",
+        "theme": "Motivation"
+    },
+    {
+        "text": "I'm not a great programmer; I'm just a good programmer with great habits.",
+        "author": "Kent Beck",
+        "theme": "Technology"
+    },
+    {
+        "text": "Life is short, and it's up to you to make it sweet.",
+        "author": "Sarah Louise Delany",
+        "theme": "Life"
+    },
+    {
+        "text": "Learning never exhausts the mind.",
+        "author": "Leonardo da Vinci",
+        "theme": "Wisdom"
+    },
+    {
+        "text": "The best way to predict the future is to invent it.",
+        "author": "Alan Kay",
+        "theme": "Technology"
+    },
+    {
+        "text": "To succeed in life, you need two things: ignorance and confidence.",
+        "author": "Mark Twain",
+        "theme": "Humor"
+    },
+    {
+        "text": "Be yourself; everyone else is already taken.",
+        "author": "Oscar Wilde",
+        "theme": "Inspiration"
+    },
+    {
+        "text": "Leadership is not about being in charge. It's about taking care of those in your charge.",
+        "author": "Simon Sinek",
+        "theme": "Leadership"
+    },
+    {
+        "text": "Creativity is intelligence having fun.",
+        "author": "Albert Einstein",
+        "theme": "Creativity"
+    },
+    {
+        "text": "Don’t watch the clock; do what it does. Keep going.",
+        "author": "Sam Levenson",
+        "theme": "Productivity"
+    },
+    {
+        "text": "Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+        "author": "Mary Anne Radmacher",
+        "theme": "Courage"
+    },
+    {
+        "text": "The expert in anything was once a beginner.",
+        "author": "Helen Hayes",
+        "theme": "Growth"
+    },
+    {
+        "text": "Focus is the key to success. Don’t let the noise distract your purpose.",
+        "author": "Unknown",
+        "theme": "Focus"
+    },
+    {
+        "text": "Success usually comes to those who are too busy to be looking for it.",
+        "author": "Henry David Thoreau",
+        "theme": "Productivity"
+    },
+    {
+        "text": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+        "author": "Eleanor Roosevelt",
+        "theme": "Wisdom"
+    },
+    {
+        "text": "Don’t limit your challenges. Challenge your limits.",
+        "author": "Jerry Dunn",
+        "theme": "Motivation"
+    },
+    {
+        "text": "Failure is the condiment that gives success its flavor.",
+        "author": "Truman Capote",
+        "theme": "Perseverance"
+    },
+    {
+        "text": "Do what you can, with what you have, where you are.",
+        "author": "Theodore Roosevelt",
+        "theme": "Inspiration"
+    },
+    {
+        "text": "If you want to go fast, go alone. If you want to go far, go together.",
+        "author": "African Proverb",
+        "theme": "Leadership"
+    },
+    {
+        "text": "The only way to achieve the impossible is to believe it is possible.",
+        "author": "Charles Kingsleigh (Alice in Wonderland)",
+        "theme": "Belief"
+    },
+    {
+        "text": "Resilience is knowing that you are the only one that has the power and the responsibility to pick yourself up.",
+        "author": "Mary Holloway",
+        "theme": "Resilience"
+    },
+    {
+        "text": "You don’t have to be great to start, but you have to start to be great.",
+        "author": "Zig Ziglar",
+        "theme": "Motivation"
+    }
+]
