@@ -1,4 +1,3 @@
-// src/types/index.ts (Example - Adding a type guard)
 
 export type Quote = {
     text: string;

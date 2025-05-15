@@ -1,4 +1,3 @@
-// src/components/QuoteDisplay.tsx
 
 'use client';
 
@@ -7,6 +6,7 @@ import type { Quote } from '@/types';
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Loader2, Star, Share2, RefreshCw } from 'lucide-react';
+import FavoritesList from "@/components/FavoritesList";
 import {
   Select,
   SelectContent,
@@ -48,7 +48,7 @@ const QuoteDisplay: React.FC<QuoteDisplayProps> = ({ initialQuote, availableThem
   const [selectedTheme, setSelectedTheme] = useState<string>(availableThemes[0] || 'All');
   const [isCurrentQuoteFavorite, setIsCurrentQuoteFavorite] = useState<boolean>(false);
   const [animateQuote, setAnimateQuote] = useState<boolean>(true);
-
+  const [showFavorites, setShowFavorites] = useState<boolean>(false);
   useEffect(() => {
     setIsCurrentQuoteFavorite(isQuoteInFavorites(currentQuote));
   }, [currentQuote]);
@@ -221,6 +221,12 @@ const QuoteDisplay: React.FC<QuoteDisplayProps> = ({ initialQuote, availableThem
             Share
           </Button>
         </div>
+        <div className="w-full max-w-3xl mt-8">
+        <Button onClick={() => setShowFavorites(!showFavorites)} variant="link">
+            {showFavorites ? 'Hide Favorites' : 'Show Favorites'}
+        </Button>
+        {showFavorites && <FavoritesList />}
+      </div>
       </div>
 
       {/* Error display */}

@@ -1,9 +1,8 @@
-// src/components/FavoritesList.tsx
 
 'use client'; // Essential: This component interacts with localStorage
 
 import React, { useState, useEffect } from 'react';
-import type { Quote } from '@/types'; // Use the same Quote type
+import type { Quote } from '@/types'; 
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Trash2 } from 'lucide-react'; // Icon for removing favorites

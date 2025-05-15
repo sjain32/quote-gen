@@ -1,12 +1,11 @@
-// src/app/page.tsx
 
 import QuoteDisplay from '@/components/QuoteDisplay';
 import type { Quote } from '@/types';
-import allQuotesData from '@/data/quotes.json'; // Adjust path if needed
+import allQuotesData from '@/data/quotes.json'; 
 
 // --- Server-side Data Fetching Functions ---
 async function getInitialQuote(): Promise<Quote> {
-  // ... (Your existing logic to get one random quote) ...
+  // ... ( existing logic to get one random quote) ...
   const quotes: Quote[] = allQuotesData;
   if (!quotes || quotes.length === 0) {
     return { text: "No quotes found.", author: "System", theme: "Error" };
@@ -16,7 +15,7 @@ async function getInitialQuote(): Promise<Quote> {
 }
 
 function getUniqueThemes(quotes: Quote[]): string[] {
-  // ... (Your existing logic to get unique themes + 'All') ...
+  // ... ( existing logic to get unique themes + 'All') ...
   const allThemes = quotes.map(quote => quote.theme);
   const uniqueThemesSet = new Set(allThemes);
   const uniqueThemesArray = Array.from(uniqueThemesSet);

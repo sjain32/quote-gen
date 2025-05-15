@@ -1,7 +1,6 @@
-// src/app/layout.tsx (Relevant parts)
 
 import type { Metadata } from "next";
-// 1. Confirm font import (e.g., Inter)
+// 1. Confirm font import 
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
@@ -22,7 +21,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      {/* 3. Apply font className to the <body> */}
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",

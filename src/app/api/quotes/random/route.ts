@@ -1,10 +1,6 @@
-// src/app/api/quotes/random/route.ts
 
 import { NextResponse } from 'next/server';
-import type { Quote } from '@/types'; // Import your Quote type
-
-// Assuming your quotes.json file is in 'src/data/quotes.json'
-// Adjust the import path if your file is located elsewhere.
+import type { Quote } from '@/types'; 
 import quotesData from '@/data/quotes.json';
 
 /**
@@ -56,31 +52,3 @@ export async function GET() {
     );
   }
 }
-
-// Note: If you were using an external API (e.g., Quotable) instead of local JSON:
-// The logic inside GET would look more like this:
-/*
-export async function GET(request: Request) {
-  try {
-    const externalApiResponse = await fetch('https://api.quotable.io/random'); // Example external API call
-    if (!externalApiResponse.ok) {
-      throw new Error(`External API failed: ${externalApiResponse.statusText}`);
-    }
-    const externalQuoteData = await externalApiResponse.json();
-
-    // ---- IMPORTANT ----
-    // Adapt the external data to YOUR Quote type structure
-    const quote: Quote = {
-      text: externalQuoteData.content,       // Map external fields to your fields
-      author: externalQuoteData.author,
-      theme: externalQuoteData.tags[0] || 'General' // Handle potential missing theme/tag
-    };
-    // ---- END IMPORTANT ----
-
-    return NextResponse.json(quote);
-  } catch (error) {
-    console.error("Error fetching from external API:", error);
-    return NextResponse.json({ error: 'Failed to fetch quote from external source' }, { status: 502 }); // 502 Bad Gateway might be appropriate
-  }
-}
-*/

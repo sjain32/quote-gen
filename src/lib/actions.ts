@@ -1,6 +1,4 @@
-// src/lib/actions.ts
 
-// 1. Add the 'use server' directive at the VERY TOP of the file.
 // This marks all exported functions in this file as Server Actions.
 'use server';
 
@@ -49,8 +47,5 @@ export async function getRandomQuoteAction(theme?: string): Promise<Quote> {
     const randomQuote: Quote = quotesPool[randomIndex];
 
     return randomQuote;
-    // ... 
 }
-// Note: If using an external API, the fetch call would go here,
-// similar to the commented-out example in the previous API route task,
-// but you would return the mapped Quote object directly, not a NextResponse.
+
