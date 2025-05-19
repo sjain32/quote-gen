@@ -39,7 +39,7 @@ A beautifully crafted web application that displays inspiring and interesting qu
 ---
 
 ## 📦 Project Structure
-
+```text
 src/
 ├── app/
 │ ├── api/ # API routes (if any)
@@ -61,7 +61,7 @@ src/
 ├── types/ # Type definitions (if any)
 .eslintrc.json # ESLint config
 .gitignore # Git ignore file
-
+```
 ---
 
 ## 🧪 Getting Started
@@ -81,7 +81,7 @@ npm install
 ##Run the development server
 npm run dev
 
-
+```
 MIT License
 
 Copyright (c) 2025 Samyak Jain
