@@ -82,7 +82,8 @@ npm install
 npm run dev
 
 ```
-MIT License
+---
+##MIT License
 
 Copyright (c) 2025 Samyak Jain
 
@@ -93,6 +94,7 @@ copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the 
 and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+---
 
 
 ##📬 Connect with Me
